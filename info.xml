@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<extension key="com.octopus8.vpschedulesautomator" type="module">
+  <file>vpschedulesautomator</file>
+  <name>com.octopus8.vpschedulesautomator</name>
+  <description>Volunteer Portal Schedules Automator. Automatically populate date Custom Fields in Event Role / Training Schedule Activities</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Lee Mun Jun</author>
+    <email>munjun@octopus8.com</email>
+  </maintainer>F
+  <urls>
+    <url desc="Main Extension Page">https://octopus8.com</url>
+    <url desc="Documentation">https://octopus8.com</url>
+    <url desc="Support">https://octopus8.com</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2024-10-09</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>5.75</ver>
+  </compatibility>
+  <comments>This is a new, undeveloped module</comments>
+  <classloader>
+    <psr0 prefix="CRM_" path="."/>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
+  <civix>
+    <namespace>CRM/Vpschedulesautomator</namespace>
+    <format>23.02.1</format>
+    <angularModule>crmVpschedulesautomator</angularModule>
+  </civix>
+  <mixins>
+    <mixin>mgd-php@1.0.0</mixin>
+    <mixin>setting-php@1.0.0</mixin>
+    <mixin>smarty@1.0.0</mixin>
+  </mixins>
+</extension>
