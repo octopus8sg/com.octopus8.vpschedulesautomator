@@ -7,8 +7,8 @@ use Civi;
 
 class Utils
 {
-    public const EVENT_CUSTOMFIELDGROUP = "Volunteer_Event_Role_Details";
-    public const TRAINING_CUSTOMFIELDGROUP = "Volunteer_Training_Schedule_Details";
+    public const EVENT_CUSTOMFIELDGROUP = "Volunteer_Event_Schedule";
+    public const TRAINING_CUSTOMFIELDGROUP = "Volunteer_Training_Schedule";
 
     public static function getActivityType($activityTypeId)
     {
